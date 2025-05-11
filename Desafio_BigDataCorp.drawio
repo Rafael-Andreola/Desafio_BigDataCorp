@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.3">
+  <diagram name="Página-1" id="JYD1tpzuWwt_tFEw6WHG">
+    <mxGraphModel dx="1828" dy="967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X2in5lBHtKbKJBYZCTOd-2" target="X2in5lBHtKbKJBYZCTOd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-7" value="Realiza o pedido do ingresso" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X2in5lBHtKbKJBYZCTOd-4">
+          <mxGeometry x="-0.0865" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-2" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="670" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-3" value="API/Function produtora da mensagem" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="91" y="400" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.51;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.059;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X2in5lBHtKbKJBYZCTOd-8" target="X2in5lBHtKbKJBYZCTOd-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-8" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.queue_generic;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="303" y="413.35" width="111" height="33.3" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X2in5lBHtKbKJBYZCTOd-3" target="X2in5lBHtKbKJBYZCTOd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X2in5lBHtKbKJBYZCTOd-11" target="X2in5lBHtKbKJBYZCTOd-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="400" />
+              <mxPoint x="690" y="180" />
+              <mxPoint x="410" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-11" value="API/Function consumidora da mensagem" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="68" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.741;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="X2in5lBHtKbKJBYZCTOd-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599" y="450" as="sourcePoint" />
+            <mxPoint x="350" y="690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="599" y="431" />
+              <mxPoint x="599" y="580" />
+              <mxPoint x="535" y="580" />
+              <mxPoint x="535" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;startFill=0;" edge="1" parent="1" source="X2in5lBHtKbKJBYZCTOd-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-15" value="O cliente realiza o pedido de um ingresso" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="605" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-16" value="A api consumidora do pedido exige uma confirmação do ingresso com o pagamento durante um tempo determinado" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="618" y="450" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-17" value="Se feito o pagamento for realizado então o bilhete será entregue, senão será redisponibilizado." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="618" y="535" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="X2in5lBHtKbKJBYZCTOd-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-18" value="Quando houver bilhetes disponiveis o trigger irá consumir uma mensagem da fila para ser processada." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-22" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-23" value="Quando identificado o processamento e pagamento do ingresso, então pode ocorrer o resto do processo." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X2in5lBHtKbKJBYZCTOd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.553;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="X2in5lBHtKbKJBYZCTOd-2" target="X2in5lBHtKbKJBYZCTOd-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="676" />
+              <mxPoint x="520" y="570" />
+              <mxPoint x="588" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
